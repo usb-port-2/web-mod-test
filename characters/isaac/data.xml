@@ -1,8 +1,0 @@
-<!DOCTYPE codename-engine-character>
-<character color="#00CBFF">
-	<anim name="idle" anim="I" x="0" y="0" fps="24" loop="false"/>
-	<anim name="singUP" anim="U" x="20" y="95" fps="24" loop="false"/>
-	<anim name="singLEFT" anim="L" x="80" y="5" fps="24" loop="false"/>
-	<anim name="singRIGHT" anim="R" x="15" y="-10" fps="24" loop="false"/>
-	<anim name="singDOWN" anim="D" x="-80" y="-25" fps="24" loop="false"/>
-</character>
