@@ -1,15 +1,17 @@
 {
+	"beatsPerMeasure": 4,
 	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 180,
 	"difficulties": [
 		"NORMAL"
 	],
-	"icon": "bamber",
-	"parsedColor": -7179779,
-	"coopAllowed": false,
-	"stepsPerBeat": 4,
-	"displayName": "yield",
 	"needsVoices": true,
-	"beatsPerMeasure": 4,
-	"bpm": 180,
-	"name": "yield"
+	"parsedColor": -13395661,
+	"displayName": "yield",
+	"icon": "bamber",
+	"name": "yield",
+	"color": "#339933",
+	"customValues": {}
 }
