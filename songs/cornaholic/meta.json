@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 130,
+	"difficulties": [
+		"NORMAL"
+	],
+	"needsVoices": true,
+	"parsedColor": -7179779,
+	"displayName": "cornaholic",
+	"icon": "bamber",
+	"name": "cornaholic",
+	"color": "#9271FD",
+	"customValues": {}
+}
