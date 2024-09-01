@@ -1,8 +1,8 @@
 <!DOCTYPE codename-engine-character>
-<character sprite="bocchi" icon="bocchi" flipX="true">
+<character sprite="bocchi" flipX="true" icon="bocchi">
 	<anim name="idle" anim="i" x="0" y="0" fps="24" loop="false"/>
-	<anim name="singUP" anim="up0" x="35" y="16" fps="24" loop="false"/>
-	<anim name="singLEFT" anim="left0" x="150" y="-20" fps="24" loop="false"/>
-	<anim name="singRIGHT" anim="right0" x="45" y="-10" fps="24" loop="false"/>
-	<anim name="singDOWN" anim="down0" x="95" y="-122" fps="24" loop="false"/>
+	<anim name="singUP" anim="u" x="35" y="8" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="r" x="65" y="-5" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="l" x="-5" y="-10" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="d" x="10" y="-60" fps="24" loop="false"/>
 </character>
