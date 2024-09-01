@@ -40,6 +40,16 @@
             "name": "the great punishment",
             "voicesname": ["Voices"],
             "additional": ["events.hx"]
+        },
+        {
+            "name": "perfect girl",
+            "voicesname": ["Voices"],
+            "additional": ["events.hx"]
+        },
+        {
+            "name": "popular",
+            "voicesname": ["Voices"],
+            "additional": []
         }
     ],
     "noteskins": [
