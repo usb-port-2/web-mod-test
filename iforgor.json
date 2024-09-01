@@ -52,7 +52,7 @@
         {
             "name": "popular",
             "voicesname": ["Voices"],
-            "additional": []
+            "additional": ["script.hx"]
         }
     ],
     "noteskins": [
