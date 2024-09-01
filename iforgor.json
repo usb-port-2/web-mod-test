@@ -1,0 +1,49 @@
+{
+    "folders": [
+        "songs",
+        "images",
+        "images/icons",
+        "images/characters",
+        "images/stages",
+        "images/game",
+        "images/game/notes",
+        "data",
+        "data/characters",
+        "data/stages"
+    ],
+    "charlist": [
+        "bamber",
+        "davey"
+    ],
+    "songs": [
+        {
+            "name": "yield",
+            "voicesname": ["Voices.ogg"],
+            "additional": []
+        },
+        {
+            "name": "cornaholic",
+            "voicesname": ["Voices.ogg"],
+            "additional": []
+        },
+        {
+            "name": "harvest",
+            "voicesname": ["Voices.ogg"],
+            "additional": []
+        },
+        {
+            "name": "yard",
+            "voicesname": ["Voices.ogg"],
+            "additional": ["Events.hx"]
+        },
+        {
+            "name": "the great punishment",
+            "voicesname": ["Voices.ogg"],
+            "additional": ["Events.hx"]
+        }
+    ],
+    "noteskins": [
+        "bamberified",
+        "gorefield"
+    ]
+}
