@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 120,
+	"difficulties": [
+		"NORMAL"
+	],
+	"needsVoices": true,
+	"parsedColor": -16777216,
+	"displayName": "delusion",
+	"icon": "nmi",
+	"name": "delusion",
+	"color": "#000000",
+	"customValues": {}
+}

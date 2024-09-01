@@ -1,4 +1,4 @@
 function onNoteCreation(e)
     e.noteSprite = "game/notes/mediocre";
 function onStrumCreation(e)
-    e.noteSprite = "game/notes/mediocre";
+    e.sprite = "game/notes/mediocre";
