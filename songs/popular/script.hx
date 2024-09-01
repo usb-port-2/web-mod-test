@@ -6,6 +6,7 @@ function postCreate() {
     healthBar.createFilledBar(strumLines.members[0].characters[0].iconColor, strumLines.members[0].characters[0].iconColor);
     iconP2.visible = false;
     healthBar.percent = health;
+    strumLines.members[0].characters[0].x += 350;
 }
 
 function update(elapsed) {
@@ -17,4 +18,5 @@ function update(elapsed) {
 	guh = FlxMath.lerp(guh, 12.5, 0.0025);
 }
 
-function onStrumCreation(e) idk = e.startingPos.y;
+function onStrumCreation(e) idk = strumLines.members[e.player].startingPos.y;
+function onCameraMove(e) e.position = strumLines.members[0].characters[0].getMidpoint();
