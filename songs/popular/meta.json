@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 173,
+	"difficulties": [
+		"NORMAL"
+	],
+	"needsVoices": true,
+	"parsedColor": -12434858,
+	"displayName": "popular",
+	"icon": "tomoko",
+	"name": "popular",
+	"color": "#424256",
+	"customValues": {}
+}
