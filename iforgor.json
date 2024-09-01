@@ -18,28 +18,28 @@
     "songs": [
         {
             "name": "yield",
-            "voicesname": ["Voices.ogg"],
+            "voicesname": ["Voices"],
             "additional": []
         },
         {
             "name": "cornaholic",
-            "voicesname": ["Voices.ogg"],
+            "voicesname": ["Voices"],
             "additional": []
         },
         {
             "name": "harvest",
-            "voicesname": ["Voices.ogg"],
+            "voicesname": ["Voices"],
             "additional": []
         },
         {
             "name": "yard",
-            "voicesname": ["Voices.ogg"],
-            "additional": ["Events.hx"]
+            "voicesname": ["Voices"],
+            "additional": ["events.hx"]
         },
         {
             "name": "the great punishment",
-            "voicesname": ["Voices.ogg"],
-            "additional": ["Events.hx"]
+            "voicesname": ["Voices"],
+            "additional": ["events.hx"]
         }
     ],
     "noteskins": [
