@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="spritesheet.png" width="176" height="202">
+	<SubTexture name="shitno_pokeballend0000" x="1" y="170" width="80" height="31" frameX="-3" frameY="-54" frameWidth="116" frameHeight="85"/>
+	<SubTexture name="shitno_pokeballend0001" x="1" y="170" width="80" height="31" frameX="-3" frameY="-54" frameWidth="116" frameHeight="85"/>
+	<SubTexture name="shitno_pokeballend0002" x="96" y="96" width="67" height="95" rotated="true" frameX="-4" frameY="-18" frameWidth="116" frameHeight="85"/>
+	<SubTexture name="shitno_pokeballend0003" x="96" y="96" width="67" height="95" rotated="true" frameX="-4" frameY="-18" frameWidth="116" frameHeight="85"/>
+	<SubTexture name="shitno_pokeballend0004" x="1" y="1" width="92" height="82" frameX="-21" frameY="-3" frameWidth="116" frameHeight="85"/>
+	<SubTexture name="shitno_pokeballend0005" x="1" y="1" width="92" height="82" frameX="-21" frameY="-3" frameWidth="116" frameHeight="85"/>
+	<SubTexture name="shitno_pokeballend0006" x="1" y="86" width="92" height="81" frameX="-21" frameY="-4" frameWidth="116" frameHeight="85"/>
+	<SubTexture name="shitno_pokeballend0007" x="1" y="86" width="92" height="81" frameX="-21" frameY="-4" frameWidth="116" frameHeight="85"/>
+	<SubTexture name="shitno_pokeballend0008" x="96" y="1" width="79" height="92" rotated="true" frameX="-20" frameY="-6" frameWidth="116" frameHeight="85"/>
+	<SubTexture name="shitno_pokeballend0009" x="96" y="1" width="79" height="92" rotated="true" frameX="-20" frameY="-6" frameWidth="116" frameHeight="85"/>
+	<SubTexture name="shitno_pokeballend0010" x="96" y="1" width="79" height="92" rotated="true" frameX="-20" frameY="-6" frameWidth="116" frameHeight="85"/>
+	<SubTexture name="shitno_pokeballend0011" x="96" y="1" width="79" height="92" rotated="true" frameX="-20" frameY="-6" frameWidth="116" frameHeight="85"/>
+	<SubTexture name="shitno_pokeballend0012" x="96" y="1" width="79" height="92" rotated="true" frameX="-20" frameY="-6" frameWidth="116" frameHeight="85"/>
+	<SubTexture name="shitno_pokeballend0013" x="96" y="1" width="79" height="92" rotated="true" frameX="-20" frameY="-6" frameWidth="116" frameHeight="85"/>
+	<SubTexture name="shitno_pokeballend0014" x="96" y="1" width="79" height="92" rotated="true" frameX="-20" frameY="-6" frameWidth="116" frameHeight="85"/>
+	<SubTexture name="shitno_pokeballend0015" x="96" y="1" width="79" height="92" rotated="true" frameX="-20" frameY="-6" frameWidth="116" frameHeight="85"/>
+	<SubTexture name="shitno_pokeballend0016" x="96" y="1" width="79" height="92" rotated="true" frameX="-20" frameY="-6" frameWidth="116" frameHeight="85"/>
+	<SubTexture name="shitno_pokeballend0017" x="96" y="1" width="79" height="92" rotated="true" frameX="-20" frameY="-6" frameWidth="116" frameHeight="85"/>
+	<SubTexture name="shitno_pokeballend0018" x="96" y="1" width="79" height="92" rotated="true" frameX="-20" frameY="-6" frameWidth="116" frameHeight="85"/>
+	<SubTexture name="shitno_pokeballend0019" x="96" y="1" width="79" height="92" rotated="true" frameX="-20" frameY="-6" frameWidth="116" frameHeight="85"/>
+	<SubTexture name="shitno_pokeballend0020" x="96" y="1" width="79" height="92" rotated="true" frameX="-20" frameY="-6" frameWidth="116" frameHeight="85"/>
+	<SubTexture name="shitno_pokeballend0021" x="96" y="1" width="79" height="92" rotated="true" frameX="-20" frameY="-6" frameWidth="116" frameHeight="85"/>
+	<SubTexture name="shitno_pokeballend0022" x="96" y="1" width="79" height="92" rotated="true" frameX="-20" frameY="-6" frameWidth="116" frameHeight="85"/>
+	<SubTexture name="shitno_pokeballend0023" x="96" y="1" width="79" height="92" rotated="true" frameX="-20" frameY="-6" frameWidth="116" frameHeight="85"/>
+	<SubTexture name="shitno_pokeballend0024" x="96" y="1" width="79" height="92" rotated="true" frameX="-20" frameY="-6" frameWidth="116" frameHeight="85"/>
+</TextureAtlas>
