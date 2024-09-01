@@ -1,3 +1,5 @@
+import openfl.display.BitmapData;
+
 function postCreate()
     camGame.fade(FlxColor.BLACK, 0);
 
