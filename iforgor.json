@@ -13,7 +13,6 @@
     ],
     "charlist": [
         "bamber",
-        "davey",
         "tomoko",
         "bocchi",
         "kita"
@@ -35,16 +34,6 @@
             "additional": []
         },
         {
-            "name": "yard",
-            "voicesname": ["Voices"],
-            "additional": ["events.hx"]
-        },
-        {
-            "name": "the great punishment",
-            "voicesname": ["Voices"],
-            "additional": ["events.hx"]
-        },
-        {
             "name": "perfect girl",
             "voicesname": ["Voices"],
             "additional": ["events.hx"]
@@ -55,8 +44,5 @@
             "additional": ["script.hx"]
         }
     ],
-    "noteskins": [
-        "bamberified",
-        "gorefield"
-    ]
+    "noteskins": []
 }
