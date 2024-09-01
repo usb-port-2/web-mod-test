@@ -9,8 +9,10 @@ function postCreate() {
 }
 
 function update(elapsed) {
+    iconP1.x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 100, 0, 1, 0)) - 75);
+
 	for (a in strumLines.members[0])
-		strum.y = idk + Math.sin((Conductor.songPosition / 500) + (strum.ID * 2) * 50) * guh;
+		a.y = idk + Math.sin((Conductor.songPosition / 500) + (a.ID * 2) * 50) * guh;
 
 	guh = FlxMath.lerp(guh, 12.5, 0.0025);
 }
