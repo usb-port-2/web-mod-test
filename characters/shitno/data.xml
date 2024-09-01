@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character sprite="shitno" icon="shitno">
+<character>
 	<anim name="idle" anim="I" x="0" y="0" fps="24" loop="false"/>
 	<anim name="singUP" anim="U" x="0" y="0" fps="24" loop="false"/>
 	<anim name="singLEFT" anim="L" x="0" y="0" fps="24" loop="false"/>
