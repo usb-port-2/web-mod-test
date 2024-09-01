@@ -1,22 +1,22 @@
 import flixel.addons.display.FlxBackdrop;
 
-var idk = new FlxBackdrop(null, FlxAxes.X);
+var backdrop = new FlxBackdrop(null, FlxAxes.X);
 var walkDown:Bool = false;
 
 function postCreate() {
-    getImageFromGithub(idk, "stages/bocchibg");
-    insert(0, idk);
-    idk.scrollFactor.x = 0.75;
+    getImageFromGithub(backdrop, "stages/bocchibg");
+    insert(0, backdrop);
+    backdrop.scrollFactor.x = 0.75;
 }
 
-function update(elapsed) idk.x += 100 * elapsed;
+function update(elapsed) backdrop.x += 100 * elapsed;
 
 function beatHit(curBeat:Int) {
     if (curBeat % 2 == 0)  {
             walkDown = !walkDown;
             strumLines.members[1].characters[0].y = (walkDown ? 215 : 235);
-            strumLines.members[0].characters[0].y = (walkDown ? -15 : -30);
+            strumLines.members[0].characters[0].y = (walkDown ? 245 : 260);
     }
 }
 
-function onCameraMove(e) e.position.y = idk.y + idk.height/2;
+function onCameraMove(e) e.position.y = backdrop.y + backdrop.height/2;
