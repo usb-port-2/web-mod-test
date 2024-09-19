@@ -11,9 +11,9 @@ function postCreate() {
         var sprite = new FunkinSprite(a[1], a[2]);
         getImageFromGithub(sprite, "stages/" + curStage + "/" + a[0]);
         sprite.scrollFactor.set(a[3], a[4]);
-        a.scale.x = a.scale.y = a[5];
+        sprite.scale.x = sprite.scale.y = a[5];
         add(sprite);
     }
     strumLines.members[0].characters[0].setPosition(315, 218);
-    strumLines.members[0].characters[0].setPosition(920, 525);
+    strumLines.members[1].characters[0].setPosition(920, 525);
 }
