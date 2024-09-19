@@ -1,3 +1,5 @@
+if(SONG.meta.name == "popular" || SONG.meta.name == "perfect girl") GameOverSubstate.script = "data/scripts/gameover";
+
 function create()
     camGame.fade(FlxColor.BLACK, 0);
 
