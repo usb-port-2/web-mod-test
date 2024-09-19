@@ -5,7 +5,14 @@ function create()
 
 function beatHit(curBeat:Int)
     if(curBeat == 0)
-        camGame.fade(FlxColor.BLACK, (Conductor.crochet/1000) * 4, true);
+        camGame.fade(FlxColor.BLACK, (Conductor.crochet/1000), true);
 
-if(SONG.meta.name.toLowerCase() == "shitno" || SONG.meta.name.toLowerCase() == "shinto")
-    importScript("data/scripts/pixel");
+function onNoteCreation(e)
+    if(e.noteType == "Bamber Smash")
+        e.visible = false;
+
+function onNoteHit(e)
+    if(e.noteType == "Bamber Smash") {
+        e.cancelAnim();
+        e.character.playAnim("smash", true);
+    }
