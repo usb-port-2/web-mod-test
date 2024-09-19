@@ -1,4 +1,5 @@
 import hxvlc.flixel.FlxVideoSprite;
+import openfl.display.BitmapData;
 
 function create(e) {
     e.cancel();
