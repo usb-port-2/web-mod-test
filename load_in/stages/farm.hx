@@ -1,6 +1,6 @@
 function postCreate() {
     defaultCamZoom = camGame.zoom = 0.6;
-    for(a in [
+    for(num => a in [
         // [graphic, x, y, scrollx, scrolly, scale]
         ["sky", -900, -200, 0.85, 0.7, 1.6],
         ["field_back", -410, 185, 0.75, 0.75, 1],
@@ -13,7 +13,7 @@ function postCreate() {
         getImageFromGithub(sprite, "stages/" + SONG.stage + "/" + a[0]);
         sprite.scrollFactor.set(a[3], a[4]);
         sprite.scale.x = sprite.scale.y = a[5];
-        add(sprite);
+        insert(num, sprite);
     }
     strumLines.members[0].characters[0].setPosition(315, 218);
     strumLines.members[1].characters[0].setPosition(920, 525);

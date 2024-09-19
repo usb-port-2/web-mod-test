@@ -17,5 +17,11 @@ function onNoteHit(e)
         e.character.playAnim("smash", true);
     }
 
-function measureHit()
-    curCameraTarget = strumLines.members[1].character[0].getAnim() != "idle" ? 1 : 0;
+function measureHit() {
+    if(strumLines.members[1].character[0].getAnimName() != "idle")
+        curCameraTarget = 1;
+    else if(strumLines.members[0].character[0].getAnimName() != "idle")
+        curCameraTarget = 0;
+    else
+        curCameraTarget = (curCameraTarget == 0 ? 1 : 0);
+}
