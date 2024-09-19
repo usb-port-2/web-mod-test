@@ -16,3 +16,6 @@ function onNoteHit(e)
         e.cancelAnim();
         e.character.playAnim("smash", true);
     }
+
+function measureHit()
+    curCameraTarget = strumLines.members[1].character[0].getAnim() != "idle" ? 1 : 0;
