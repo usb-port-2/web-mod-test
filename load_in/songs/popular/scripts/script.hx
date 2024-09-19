@@ -33,7 +33,7 @@ function stepHit(curStep:Int) {
         case 0:
             FlxTween.num(25, 12.5, (Conductor.stepCrochet / 1000) * 256, {}, function(a) floatAmount = a);
         case 504:
-            FlxTween.num(12.5, 0, (Conductor.stepCrochet / 1000) * 4, {}, function(a) floatAmount = a);
+            floatAmount = 0;
     }
 }
 
