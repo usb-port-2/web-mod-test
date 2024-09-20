@@ -9,7 +9,6 @@ function postCreate() {
         ["fore", -1000, 0, 1, 1, 1.1]
     ]) {
         var sprite = new FunkinSprite(a[1], a[2]);
-        trace( "stages/" + curStage + "/" + a[0]);
         getImageFromGithub(sprite, "stages/" + SONG.stage + "/" + a[0]);
         sprite.scrollFactor.set(a[3], a[4]);
         sprite.scale.x = sprite.scale.y = a[5];

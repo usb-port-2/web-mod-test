@@ -7,6 +7,7 @@ var floatAmount:Float = 25;
 
 var bg = new FunkinSprite();
 var fg = new FunkinSprite();
+var tomo = new FunkinSprite();
 
 function postCreate() {
     iconP1.setIcon("tomoko");
@@ -22,6 +23,12 @@ function postCreate() {
 
     getImageFromGithub(fg, "stages/watamote/fg");
     add(fg.screenCenter());
+
+    getSpritesheetFromGithub(tomo, "stages/watamote/tomo");
+    add(tomo.screenCenter());
+    tomo.animation.addByPrefix("a", "a", 24, true);
+    tomo.animation.play("a");
+    tomo.camera = camHUD;
 
     strumLines.members[0].characters[0].scale.set(0.65, 0.65);
     strumLines.members[0].characters[0].y += 285;
