@@ -24,10 +24,8 @@ function postCreate() {
     getImageFromGithub(fg, "stages/watamote/fg");
     add(fg.screenCenter());
 
-    getSpritesheetFromGithub(tomo, "stages/watamote/tomo");
+    getSpritesheetFromGithub(tomo, "stages/watamote/tomo", "a");
     add(tomo.screenCenter());
-    tomo.animation.addByPrefix("a", "a", 24, true);
-    tomo.animation.play("a");
     tomo.camera = camHUD;
 
     strumLines.members[0].characters[0].scale.set(0.65, 0.65);
