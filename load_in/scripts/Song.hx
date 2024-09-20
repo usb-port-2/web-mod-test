@@ -16,12 +16,3 @@ function onNoteHit(e)
         e.cancelAnim();
         e.character.playAnim("smash", true);
     }
-
-function measureHit() {
-    if(strumLines.members[1].character[0].getAnimName() != "idle")
-        curCameraTarget = 1;
-    else if(strumLines.members[0].character[0].getAnimName() != "idle")
-        curCameraTarget = 0;
-    else
-        curCameraTarget = (curCameraTarget == 0 ? 1 : 0);
-}

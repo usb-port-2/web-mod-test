@@ -24,10 +24,8 @@ function postCreate() {
     getImageFromGithub(fg, "stages/watamote/fg");
     add(fg.screenCenter());
 
-    getSpritesheetFromGithub(tomo, "stages/watamote/tomo");
-    add(tomo.screenCenter());
-    tomo.animation.addByPrefix("a", "a", 24, true);
-    tomo.animation.play("a");
+    getSpritesheetFromGithub(tomo, "stages/watamote/tomo", "a");
+    insert(0, tomo);
     tomo.camera = camHUD;
 
     strumLines.members[0].characters[0].scale.set(0.65, 0.65);
@@ -41,6 +39,17 @@ function stepHit(curStep:Int) {
             FlxTween.num(25, 12.5, (Conductor.stepCrochet / 1000) * 256, {}, function(a) floatAmount = a);
         case 504:
             floatAmount = 0;
+        case 1568:
+            camGame.flash(FlxColor.WHITE, (Conductor.stepCrochet / 1000) * 16);
+            strumLines.members[0].characters[0].visible = bg.visible = fg.visible = false;
+            tomo.screenCenter(FlxAxes.Y);
+            tomo.x = FlxG.width / 3 - tomo.width / 2;
+            tomo.visible = true;
+            tomo.animation.addByPrefix("a", "a", 24, true);
+            tomo.animation.play("a");
+
+            for(num => a in strumLines.members[0].members)
+                FlxTween.tween(a, {x: ((FlxG.width * 0.75) + (Note.swagWidth * (num - 2)))}, (Conductor.stepCrochet / 1000) * 8, {ease: FlxEase.circInOut});
     }
 }
 
