@@ -25,6 +25,7 @@ function postCreate() {
     add(fg.screenCenter());
 
     getSpritesheetFromGithub(tomo, "stages/watamote/tomo", "a");
+    tomo.visible = false;
     insert(0, tomo);
     tomo.camera = camHUD;
 
