@@ -29,7 +29,6 @@ function postCreate() {
     insert(0, tomo);
     tomo.camera = camHUD;
 
-    strumLines.members[0].characters[0].scale.set(0.65, 0.65);
     strumLines.members[0].characters[0].y += 285;
     strumLines.members[0].characters[0].x += 40;
 }
