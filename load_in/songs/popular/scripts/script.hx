@@ -29,8 +29,8 @@ function postCreate() {
     insert(0, tomo);
     tomo.camera = camHUD;
 
-    strumLines.members[0].characters[0].y += 285;
-    strumLines.members[0].characters[0].x += 40;
+    strumLines.members[0].characters[0].y += 410;
+    strumLines.members[0].characters[0].x += 105;
 }
 
 function stepHit(curStep:Int) {
