@@ -1,0 +1,16 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 142,
+	"difficulties": [
+		"NORMAL"
+	],
+	"parsedColor": -5408530,
+	"displayName": "dangerous to go alone",
+	"icon": "ao oni",
+	"name": "dangerous to go alone",
+	"color": "#AD78EE",
+	"customValues": {}
+}

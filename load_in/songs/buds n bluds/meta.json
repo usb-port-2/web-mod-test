@@ -1,0 +1,16 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 196,
+	"difficulties": [
+		"NORMAL"
+	],
+	"parsedColor": -9383202,
+	"displayName": "buds n bluds",
+	"icon": "tweak",
+	"name": "buds n bluds",
+	"color": "#70D2DE",
+	"customValues": {}
+}
