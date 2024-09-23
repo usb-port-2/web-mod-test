@@ -1,0 +1,16 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 145,
+	"difficulties": [
+		"CHART"
+	],
+	"needsVoices": true,
+	"parsedColor": -1,
+	"displayName": "Timeless Daydream",
+	"icon": "osaka",
+	"name": "Timeless Daydream",
+	"color": "#FFFFFF"
+}
