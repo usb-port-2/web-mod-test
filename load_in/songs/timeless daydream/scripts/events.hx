@@ -35,6 +35,9 @@ function stepHit(curStep:Int) {
     }
 }
 
+function postUpdate()
+    defaultCamZoom = zoomAmt + (strumLines.members[0].characters[0].getAnimName() == "idle" ? 0.95 : 1);
+
 function beatHit(curBeat:Int){
 	if(bop){
 		for(a in [iconP2, iconP1]){

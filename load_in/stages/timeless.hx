@@ -46,6 +46,7 @@ function postCreate() {
     osak.animation.addByPrefix("idle", "idle0", 24, true);
     osak.animation.play("idle", true);
     osaker.velocity.y = 120;
+    osaker.scale.x = osaker.scale.y = 3;
 
     camGame.flash(FlxColor.BLACK, 0, true);
 }
@@ -53,8 +54,6 @@ function postCreate() {
 function postUpdate() {
     for(a in 0...2)
         [iconP2, iconP1][a].x += (a * 52) - 75/2;
-
-    defaultCamZoom = zoomAmt + (strumLines.members[0].characters[0].getAnimName() == "idle" ? 0.95 : 1);
 
     camFollow.x = strumLines.members[0].characters[0].getMidpoint().x;
     camFollow.y = strumLines.members[0].characters[0].getMidpoint().y;
