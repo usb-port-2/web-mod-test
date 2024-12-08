@@ -1,12 +1,8 @@
 <!DOCTYPE codename-engine-character>
-<character color="#000000">
-	<anim x="0" loop="true" y="0" fps="24" anim="idle" name="idle"/>
-	<anim x="0" loop="false" y="0" fps="24" anim="up" name="singUP"/>
-	<anim x="0" loop="false" y="0" fps="24" anim="left" name="singLEFT"/>
-	<anim x="0" loop="false" y="0" fps="24" anim="right" name="singRIGHT"/>
-	<anim x="0" loop="false" y="0" fps="24" anim="down" name="singDOWN"/>	
-	<anim x="0" loop="false" y="0" fps="24" anim="altUp" name="singUP-alt"/>
-	<anim x="0" loop="false" y="0" fps="24" anim="altLeft" name="singLEFT-alt"/>
-	<anim x="0" loop="false" y="0" fps="24" anim="altRight" name="singRIGHT-alt"/>
-	<anim x="0" loop="false" y="0" fps="24" anim="altDown" name="singDOWN-alt"/>
+<character color="#424256">
+	<anim name="idle" anim="i" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="up0" x="4" y="6" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left0" x="6" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right0" x="-3" y="1" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down0" x="2" y="-5" fps="24" loop="false"/>
 </character>
